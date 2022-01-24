@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6438CED22797DCF900E0CD6D /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438CED12797DCF900E0CD6D /* SettingsVC.swift */; };
+		6438CED42797DD2900E0CD6D /* SettingTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438CED32797DD2900E0CD6D /* SettingTblCell.swift */; };
+		6438CED82797E9F600E0CD6D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6438CED72797E9F600E0CD6D /* HealthKit.framework */; };
+		646975E02797C3000002F944 /* RewardsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646975DF2797C3000002F944 /* RewardsListVC.swift */; };
+		646975E22797C5800002F944 /* RewardsTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646975E12797C5800002F944 /* RewardsTblCell.swift */; };
+		646975E42797C5960002F944 /* RewardsDetailCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646975E32797C5960002F944 /* RewardsDetailCollCell.swift */; };
+		646975E62797D8640002F944 /* RewardsDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646975E52797D8640002F944 /* RewardsDetailVc.swift */; };
+		6473B3E72796C5A6000B8CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6473B3E62796C5A6000B8CD1 /* AppDelegate.swift */; };
+		6473B3EE2796C5A6000B8CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6473B3EC2796C5A6000B8CD1 /* Main.storyboard */; };
+		6473B3F02796C5A8000B8CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6473B3EF2796C5A8000B8CD1 /* Assets.xcassets */; };
+		6473B3F32796C5A8000B8CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6473B3F12796C5A8000B8CD1 /* LaunchScreen.storyboard */; };
+		6473B3FE2796C6A5000B8CD1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6473B3FD2796C6A5000B8CD1 /* LoginVC.swift */; };
+		6473B4072796C826000B8CD1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6473B4002796C826000B8CD1 /* Roboto-Bold.ttf */; };
+		6473B4082796C826000B8CD1 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6473B4012796C826000B8CD1 /* Roboto-Italic.ttf */; };
+		6473B4092796C826000B8CD1 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6473B4022796C826000B8CD1 /* Roboto-Thin.ttf */; };
+		6473B40A2796C826000B8CD1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6473B4032796C826000B8CD1 /* Roboto-Regular.ttf */; };
+		6473B40B2796C826000B8CD1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6473B4042796C826000B8CD1 /* Roboto-Medium.ttf */; };
+		6473B40C2796C826000B8CD1 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6473B4052796C826000B8CD1 /* Roboto-Light.ttf */; };
+		6473B40D2796C826000B8CD1 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6473B4062796C826000B8CD1 /* Roboto-Black.ttf */; };
+		6473B40F2796C985000B8CD1 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6473B40E2796C985000B8CD1 /* RobotoCondensed-Bold.ttf */; };
+		6473B4112796CE0D000B8CD1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6473B4102796CE0D000B8CD1 /* Extensions.swift */; };
+		647DDCD227991C320083C9AD /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDCD127991C320083C9AD /* SignUpVC.swift */; };
+		647DDCD427993B5E0083C9AD /* LeaderboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDCD327993B5E0083C9AD /* LeaderboardVC.swift */; };
+		64E66C102796E0DF0065C400 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E66C0F2796E0DF0065C400 /* HomeVC.swift */; };
+		64E66C122796E70E0065C400 /* HomeGoalsTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E66C112796E70E0065C400 /* HomeGoalsTblCell.swift */; };
+		DA46C383AD412D3FAF433BC9 /* Pods_WalletWalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C46E31CB635E7F46C5E13D /* Pods_WalletWalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01C46E31CB635E7F46C5E13D /* Pods_WalletWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletWalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431913D41D5E62155E242F84 /* Pods-WalletWalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletWalk.debug.xcconfig"; path = "Target Support Files/Pods-WalletWalk/Pods-WalletWalk.debug.xcconfig"; sourceTree = "<group>"; };
+		6438CED12797DCF900E0CD6D /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		6438CED32797DD2900E0CD6D /* SettingTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTblCell.swift; sourceTree = "<group>"; };
+		6438CED52797E9F600E0CD6D /* WalletWalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WalletWalk.entitlements; sourceTree = "<group>"; };
+		6438CED72797E9F600E0CD6D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		646975DF2797C3000002F944 /* RewardsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsListVC.swift; sourceTree = "<group>"; };
+		646975E12797C5800002F944 /* RewardsTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsTblCell.swift; sourceTree = "<group>"; };
+		646975E32797C5960002F944 /* RewardsDetailCollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsDetailCollCell.swift; sourceTree = "<group>"; };
+		646975E52797D8640002F944 /* RewardsDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsDetailVc.swift; sourceTree = "<group>"; };
+		6473B3E32796C5A6000B8CD1 /* WalletWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6473B3E62796C5A6000B8CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6473B3ED2796C5A6000B8CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6473B3EF2796C5A8000B8CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6473B3F22796C5A8000B8CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6473B3F42796C5A8000B8CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6473B3FD2796C6A5000B8CD1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6473B4002796C826000B8CD1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		6473B4012796C826000B8CD1 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		6473B4022796C826000B8CD1 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		6473B4032796C826000B8CD1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		6473B4042796C826000B8CD1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		6473B4052796C826000B8CD1 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		6473B4062796C826000B8CD1 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		6473B40E2796C985000B8CD1 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		6473B4102796CE0D000B8CD1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		647DDCD127991C320083C9AD /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		647DDCD327993B5E0083C9AD /* LeaderboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardVC.swift; sourceTree = "<group>"; };
+		64E66C0F2796E0DF0065C400 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		64E66C112796E70E0065C400 /* HomeGoalsTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGoalsTblCell.swift; sourceTree = "<group>"; };
+		CA42906E3FB2A6F5AC12DB95 /* Pods-WalletWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletWalk.release.xcconfig"; path = "Target Support Files/Pods-WalletWalk/Pods-WalletWalk.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6473B3E02796C5A6000B8CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6438CED82797E9F600E0CD6D /* HealthKit.framework in Frameworks */,
+				DA46C383AD412D3FAF433BC9 /* Pods_WalletWalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6438CED62797E9F600E0CD6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6438CED72797E9F600E0CD6D /* HealthKit.framework */,
+				01C46E31CB635E7F46C5E13D /* Pods_WalletWalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6473B3DA2796C5A6000B8CD1 = {
+			isa = PBXGroup;
+			children = (
+				6473B3E52796C5A6000B8CD1 /* WalletWalk */,
+				6473B3E42796C5A6000B8CD1 /* Products */,
+				6438CED62797E9F600E0CD6D /* Frameworks */,
+				7F912DF04E42BE79A2E0F3D0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6473B3E42796C5A6000B8CD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6473B3E32796C5A6000B8CD1 /* WalletWalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6473B3E52796C5A6000B8CD1 /* WalletWalk */ = {
+			isa = PBXGroup;
+			children = (
+				6438CED52797E9F600E0CD6D /* WalletWalk.entitlements */,
+				6473B3FF2796C808000B8CD1 /* Fonts */,
+				6473B3FC2796C692000B8CD1 /* Extenions */,
+				6473B3FB2796C68E000B8CD1 /* Views */,
+				6473B3FA2796C67C000B8CD1 /* Controllers */,
+				6473B3E62796C5A6000B8CD1 /* AppDelegate.swift */,
+				6473B3EC2796C5A6000B8CD1 /* Main.storyboard */,
+				6473B3EF2796C5A8000B8CD1 /* Assets.xcassets */,
+				6473B3F12796C5A8000B8CD1 /* LaunchScreen.storyboard */,
+				6473B3F42796C5A8000B8CD1 /* Info.plist */,
+			);
+			path = WalletWalk;
+			sourceTree = "<group>";
+		};
+		6473B3FA2796C67C000B8CD1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6473B3FD2796C6A5000B8CD1 /* LoginVC.swift */,
+				647DDCD127991C320083C9AD /* SignUpVC.swift */,
+				64E66C0F2796E0DF0065C400 /* HomeVC.swift */,
+				646975DF2797C3000002F944 /* RewardsListVC.swift */,
+				646975E52797D8640002F944 /* RewardsDetailVc.swift */,
+				6438CED12797DCF900E0CD6D /* SettingsVC.swift */,
+				647DDCD327993B5E0083C9AD /* LeaderboardVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6473B3FB2796C68E000B8CD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64E66C112796E70E0065C400 /* HomeGoalsTblCell.swift */,
+				646975E12797C5800002F944 /* RewardsTblCell.swift */,
+				646975E32797C5960002F944 /* RewardsDetailCollCell.swift */,
+				6438CED32797DD2900E0CD6D /* SettingTblCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6473B3FC2796C692000B8CD1 /* Extenions */ = {
+			isa = PBXGroup;
+			children = (
+				6473B4102796CE0D000B8CD1 /* Extensions.swift */,
+			);
+			path = Extenions;
+			sourceTree = "<group>";
+		};
+		6473B3FF2796C808000B8CD1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6473B4062796C826000B8CD1 /* Roboto-Black.ttf */,
+				6473B4002796C826000B8CD1 /* Roboto-Bold.ttf */,
+				6473B4012796C826000B8CD1 /* Roboto-Italic.ttf */,
+				6473B4052796C826000B8CD1 /* Roboto-Light.ttf */,
+				6473B4042796C826000B8CD1 /* Roboto-Medium.ttf */,
+				6473B4032796C826000B8CD1 /* Roboto-Regular.ttf */,
+				6473B4022796C826000B8CD1 /* Roboto-Thin.ttf */,
+				6473B40E2796C985000B8CD1 /* RobotoCondensed-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7F912DF04E42BE79A2E0F3D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				431913D41D5E62155E242F84 /* Pods-WalletWalk.debug.xcconfig */,
+				CA42906E3FB2A6F5AC12DB95 /* Pods-WalletWalk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6473B3E22796C5A6000B8CD1 /* WalletWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6473B3F72796C5A8000B8CD1 /* Build configuration list for PBXNativeTarget "WalletWalk" */;
+			buildPhases = (
+				049640477F4F2848459D9713 /* [CP] Check Pods Manifest.lock */,
+				6473B3DF2796C5A6000B8CD1 /* Sources */,
+				6473B3E02796C5A6000B8CD1 /* Frameworks */,
+				6473B3E12796C5A6000B8CD1 /* Resources */,
+				896493EB43BB1D3DDA85F247 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalletWalk;
+			productName = WalletWalk;
+			productReference = 6473B3E32796C5A6000B8CD1 /* WalletWalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6473B3DB2796C5A6000B8CD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6473B3E22796C5A6000B8CD1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 6473B3DE2796C5A6000B8CD1 /* Build configuration list for PBXProject "WalletWalk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6473B3DA2796C5A6000B8CD1;
+			productRefGroup = 6473B3E42796C5A6000B8CD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6473B3E22796C5A6000B8CD1 /* WalletWalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6473B3E12796C5A6000B8CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6473B40B2796C826000B8CD1 /* Roboto-Medium.ttf in Resources */,
+				6473B3F32796C5A8000B8CD1 /* LaunchScreen.storyboard in Resources */,
+				6473B40A2796C826000B8CD1 /* Roboto-Regular.ttf in Resources */,
+				6473B3F02796C5A8000B8CD1 /* Assets.xcassets in Resources */,
+				6473B4092796C826000B8CD1 /* Roboto-Thin.ttf in Resources */,
+				6473B4082796C826000B8CD1 /* Roboto-Italic.ttf in Resources */,
+				6473B4072796C826000B8CD1 /* Roboto-Bold.ttf in Resources */,
+				6473B40D2796C826000B8CD1 /* Roboto-Black.ttf in Resources */,
+				6473B3EE2796C5A6000B8CD1 /* Main.storyboard in Resources */,
+				6473B40C2796C826000B8CD1 /* Roboto-Light.ttf in Resources */,
+				6473B40F2796C985000B8CD1 /* RobotoCondensed-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		049640477F4F2848459D9713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalletWalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		896493EB43BB1D3DDA85F247 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalletWalk/Pods-WalletWalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalletWalk/Pods-WalletWalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalletWalk/Pods-WalletWalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6473B3DF2796C5A6000B8CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6473B3FE2796C6A5000B8CD1 /* LoginVC.swift in Sources */,
+				646975E22797C5800002F944 /* RewardsTblCell.swift in Sources */,
+				6438CED42797DD2900E0CD6D /* SettingTblCell.swift in Sources */,
+				64E66C102796E0DF0065C400 /* HomeVC.swift in Sources */,
+				647DDCD227991C320083C9AD /* SignUpVC.swift in Sources */,
+				646975E42797C5960002F944 /* RewardsDetailCollCell.swift in Sources */,
+				647DDCD427993B5E0083C9AD /* LeaderboardVC.swift in Sources */,
+				64E66C122796E70E0065C400 /* HomeGoalsTblCell.swift in Sources */,
+				646975E62797D8640002F944 /* RewardsDetailVc.swift in Sources */,
+				6473B4112796CE0D000B8CD1 /* Extensions.swift in Sources */,
+				6473B3E72796C5A6000B8CD1 /* AppDelegate.swift in Sources */,
+				646975E02797C3000002F944 /* RewardsListVC.swift in Sources */,
+				6438CED22797DCF900E0CD6D /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6473B3EC2796C5A6000B8CD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6473B3ED2796C5A6000B8CD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6473B3F12796C5A8000B8CD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6473B3F22796C5A8000B8CD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6473B3F52796C5A8000B8CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6473B3F62796C5A8000B8CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6473B3F82796C5A8000B8CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431913D41D5E62155E242F84 /* Pods-WalletWalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WalletWalk/WalletWalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CPLNWS97C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalletWalk/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We would like to access your health kit for show steps counts";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We would like to access your location permission for access your current location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We would like to access your location permission for access your current location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We would like to access your location permission for access your current location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scc.WalletWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6473B3F92796C5A8000B8CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA42906E3FB2A6F5AC12DB95 /* Pods-WalletWalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WalletWalk/WalletWalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CPLNWS97C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalletWalk/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We would like to access your health kit for show steps counts";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We would like to access your location permission for access your current location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We would like to access your location permission for access your current location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We would like to access your location permission for access your current location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scc.WalletWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6473B3DE2796C5A6000B8CD1 /* Build configuration list for PBXProject "WalletWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6473B3F52796C5A8000B8CD1 /* Debug */,
+				6473B3F62796C5A8000B8CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6473B3F72796C5A8000B8CD1 /* Build configuration list for PBXNativeTarget "WalletWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6473B3F82796C5A8000B8CD1 /* Debug */,
+				6473B3F92796C5A8000B8CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6473B3DB2796C5A6000B8CD1 /* Project object */;
+}
